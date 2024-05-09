@@ -1,0 +1,640 @@
+[{
+    "entryId": "tweet-1785732879730737530",
+    "sortIndex": "1785739701592784896",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "1785732879730737530",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjo3NTkyNTE=",
+                                "rest_id": "759251",
+                                "affiliates_highlighted_label": {},
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "profile_image_shape": "Square",
+                                "legacy": {
+                                    "can_dm": false,
+                                    "can_media_tag": false,
+                                    "created_at": "Fri Feb 09 00:35:02 +0000 2007",
+                                    "default_profile": false,
+                                    "default_profile_image": false,
+                                    "description": "It’s our job to #GoThere & tell the most difficult stories. For breaking news, follow @CNNBRK and download our app https://t.co/ceNBoNi8y6",
+                                    "entities": {
+                                        "description": {
+                                            "urls": [{
+                                                "display_url": "cnn.com/apps",
+                                                "expanded_url": "http://cnn.com/apps",
+                                                "url": "https://t.co/ceNBoNi8y6",
+                                                "indices": [115, 138]
+                                            }]
+                                        },
+                                        "url": {
+                                            "urls": [{
+                                                "display_url": "cnn.com",
+                                                "expanded_url": "http://www.cnn.com",
+                                                "url": "https://t.co/imGp4Ieixi",
+                                                "indices": [0, 23]
+                                            }]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 1365,
+                                    "followers_count": 62331855,
+                                    "friends_count": 1082,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 158538,
+                                    "location": "",
+                                    "media_count": 190350,
+                                    "name": "CNN",
+                                    "normal_followers_count": 62331855,
+                                    "pinned_tweet_ids_str": [],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/759251/1689257013",
+                                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+                                    "profile_interstitial_type": "",
+                                    "screen_name": "CNN",
+                                    "statuses_count": 421802,
+                                    "translator_type": "regular",
+                                    "url": "https://t.co/imGp4Ieixi",
+                                    "verified": false,
+                                    "verified_type": "Business",
+                                    "want_retweets": false,
+                                    "withheld_in_countries": []
+                                },
+                                "tipjar_settings": {}
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": ["1785732879730737530"],
+                        "editable_until_msecs": "1714590470000",
+                        "is_edit_eligible": true,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "64764",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+                    "legacy": {
+                        "bookmark_count": 4,
+                        "bookmarked": false,
+                        "created_at": "Wed May 01 18:07:50 +0000 2024",
+                        "conversation_id_str": "1785732879730737530",
+                        "display_text_range": [0, 175],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [{
+                                "display_url": "cnn.it/3UDJzMi",
+                                "expanded_url": "https://cnn.it/3UDJzMi",
+                                "url": "https://t.co/sx9AwbR5cb",
+                                "indices": [152, 175]
+                            }],
+                            "user_mentions": []
+                        },
+                        "favorite_count": 32,
+                        "favorited": false,
+                        "full_text": "Fed holds interest rates at 23-year high for the sixth time in a row as hotter-than-expected inflation continues to push back the timing of a rate cut. https://t.co/sx9AwbR5cb",
+                        "is_quote_status": false,
+                        "lang": "en",
+                        "possibly_sensitive": false,
+                        "possibly_sensitive_editable": true,
+                        "quote_count": 5,
+                        "reply_count": 45,
+                        "retweet_count": 15,
+                        "retweeted": false,
+                        "user_id_str": "759251",
+                        "id_str": "1785732879730737530"
+                    },
+                    "quick_promote_eligibility": {
+                        "eligibility": "IneligibleNotProfessional"
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "tweet",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "RankedOrganicTweet",
+                    "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkTkTmcs5fQCgAAAAA="
+                }
+            }
+        }
+    }
+},
+{
+    "entryId": "tweet-1785223665753211312",
+    "sortIndex": "1785739701592784880",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "1785223665753211312",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjo3NTkyNTE=",
+                                "rest_id": "759251",
+                                "affiliates_highlighted_label": {},
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "profile_image_shape": "Square",
+                                "legacy": {
+                                    "can_dm": false,
+                                    "can_media_tag": false,
+                                    "created_at": "Fri Feb 09 00:35:02 +0000 2007",
+                                    "default_profile": false,
+                                    "default_profile_image": false,
+                                    "description": "It’s our job to #GoThere & tell the most difficult stories. For breaking news, follow @CNNBRK and download our app https://t.co/ceNBoNi8y6",
+                                    "entities": {
+                                        "description": {
+                                            "urls": [{
+                                                "display_url": "cnn.com/apps",
+                                                "expanded_url": "http://cnn.com/apps",
+                                                "url": "https://t.co/ceNBoNi8y6",
+                                                "indices": [115, 138]
+                                            }]
+                                        },
+                                        "url": {
+                                            "urls": [{
+                                                "display_url": "cnn.com",
+                                                "expanded_url": "http://www.cnn.com",
+                                                "url": "https://t.co/imGp4Ieixi",
+                                                "indices": [0, 23]
+                                            }]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 1365,
+                                    "followers_count": 62331855,
+                                    "friends_count": 1082,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 158538,
+                                    "location": "",
+                                    "media_count": 190350,
+                                    "name": "CNN",
+                                    "normal_followers_count": 62331855,
+                                    "pinned_tweet_ids_str": [],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/759251/1689257013",
+                                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+                                    "profile_interstitial_type": "",
+                                    "screen_name": "CNN",
+                                    "statuses_count": 421802,
+                                    "translator_type": "regular",
+                                    "url": "https://t.co/imGp4Ieixi",
+                                    "verified": false,
+                                    "verified_type": "Business",
+                                    "want_retweets": false,
+                                    "withheld_in_countries": []
+                                },
+                                "tipjar_settings": {}
+                            }
+                        }
+                    },
+                    "card": {
+                        "rest_id": "https://t.co/4RWX0uiWEM",
+                        "legacy": {
+                            "binding_values": [{
+                                "key": "photo_image_full_size_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 419,
+                                        "width": 800,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=800x419"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "thumbnail_image",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 150,
+                                        "width": 267,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=280x150"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "description",
+                                "value": {
+                                    "string_value": "Pro-Palestinian protests are disrupting major US universities, and several schools have called police to remove demonstrators. Follow for live updates.",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "domain",
+                                "value": {
+                                    "string_value": "www.cnn.com",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "thumbnail_image_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 320,
+                                        "width": 569,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=800x320_1"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "summary_photo_image_small",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 202,
+                                        "width": 386,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=386x202"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "thumbnail_image_original",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 619,
+                                        "width": 1100,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=orig"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "photo_image_full_size_small",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 202,
+                                        "width": 386,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=386x202"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "summary_photo_image_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 419,
+                                        "width": 800,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=800x419"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "thumbnail_image_small",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 81,
+                                        "width": 144,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=144x144"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "thumbnail_image_x_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 619,
+                                        "width": 1100,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=png&name=2048x2048_2_exp"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "photo_image_full_size_original",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 619,
+                                        "width": 1100,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=orig"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "photo_image_full_size_alt_text",
+                                "value": {
+                                    "string_value": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "vanity_url",
+                                "value": {
+                                    "scribe_key": "vanity_url",
+                                    "string_value": "cnn.com",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "photo_image_full_size",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 314,
+                                        "width": 600,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=600x314"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "summary_photo_image_alt_text",
+                                "value": {
+                                    "string_value": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "thumbnail_image_color",
+                                "value": {
+                                    "image_color_value": {
+                                        "palette": [{
+                                            "rgb": {
+                                                "blue": 46,
+                                                "green": 43,
+                                                "red": 39
+                                            },
+                                            "percentage": 42.21
+                                        }, {
+                                            "rgb": {
+                                                "blue": 214,
+                                                "green": 176,
+                                                "red": 140
+                                            },
+                                            "percentage": 16.48
+                                        }, {
+                                            "rgb": {
+                                                "blue": 46,
+                                                "green": 79,
+                                                "red": 78
+                                            },
+                                            "percentage": 7.29
+                                        }, {
+                                            "rgb": {
+                                                "blue": 163,
+                                                "green": 182,
+                                                "red": 188
+                                            },
+                                            "percentage": 6.79
+                                        }, {
+                                            "rgb": {
+                                                "blue": 82,
+                                                "green": 119,
+                                                "red": 10
+                                            },
+                                            "percentage": 4.71
+                                        }]
+                                    },
+                                    "type": "IMAGE_COLOR"
+                                }
+                            }, {
+                                "key": "title",
+                                "value": {
+                                    "string_value": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "summary_photo_image_color",
+                                "value": {
+                                    "image_color_value": {
+                                        "palette": [{
+                                            "rgb": {
+                                                "blue": 46,
+                                                "green": 43,
+                                                "red": 39
+                                            },
+                                            "percentage": 42.21
+                                        }, {
+                                            "rgb": {
+                                                "blue": 214,
+                                                "green": 176,
+                                                "red": 140
+                                            },
+                                            "percentage": 16.48
+                                        }, {
+                                            "rgb": {
+                                                "blue": 46,
+                                                "green": 79,
+                                                "red": 78
+                                            },
+                                            "percentage": 7.29
+                                        }, {
+                                            "rgb": {
+                                                "blue": 163,
+                                                "green": 182,
+                                                "red": 188
+                                            },
+                                            "percentage": 6.79
+                                        }, {
+                                            "rgb": {
+                                                "blue": 82,
+                                                "green": 119,
+                                                "red": 10
+                                            },
+                                            "percentage": 4.71
+                                        }]
+                                    },
+                                    "type": "IMAGE_COLOR"
+                                }
+                            }, {
+                                "key": "summary_photo_image_x_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 619,
+                                        "width": 1100,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=png&name=2048x2048_2_exp"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "summary_photo_image",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 314,
+                                        "width": 600,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=600x314"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "photo_image_full_size_color",
+                                "value": {
+                                    "image_color_value": {
+                                        "palette": [{
+                                            "rgb": {
+                                                "blue": 46,
+                                                "green": 43,
+                                                "red": 39
+                                            },
+                                            "percentage": 42.21
+                                        }, {
+                                            "rgb": {
+                                                "blue": 214,
+                                                "green": 176,
+                                                "red": 140
+                                            },
+                                            "percentage": 16.48
+                                        }, {
+                                            "rgb": {
+                                                "blue": 46,
+                                                "green": 79,
+                                                "red": 78
+                                            },
+                                            "percentage": 7.29
+                                        }, {
+                                            "rgb": {
+                                                "blue": 163,
+                                                "green": 182,
+                                                "red": 188
+                                            },
+                                            "percentage": 6.79
+                                        }, {
+                                            "rgb": {
+                                                "blue": 82,
+                                                "green": 119,
+                                                "red": 10
+                                            },
+                                            "percentage": 4.71
+                                        }]
+                                    },
+                                    "type": "IMAGE_COLOR"
+                                }
+                            }, {
+                                "key": "photo_image_full_size_x_large",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 619,
+                                        "width": 1100,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=png&name=2048x2048_2_exp"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }, {
+                                "key": "card_url",
+                                "value": {
+                                    "scribe_key": "card_url",
+                                    "string_value": "https://t.co/4RWX0uiWEM",
+                                    "type": "STRING"
+                                }
+                            }, {
+                                "key": "summary_photo_image_original",
+                                "value": {
+                                    "image_value": {
+                                        "alt": "Live updates: Pro-Palestinian university protests disrupt Columbia, UCLA, campuses across the US",
+                                        "height": 619,
+                                        "width": 1100,
+                                        "url": "https://pbs.twimg.com/card_img/1783756851105902592/iNKJg_1l?format=jpg&name=orig"
+                                    },
+                                    "type": "IMAGE"
+                                }
+                            }],
+                            "card_platform": {
+                                "platform": {
+                                    "audience": {
+                                        "name": "production"
+                                    },
+                                    "device": {
+                                        "name": "Swift",
+                                        "version": "12"
+                                    }
+                                }
+                            },
+                            "name": "summary_large_image",
+                            "url": "https://t.co/4RWX0uiWEM",
+                            "user_refs_results": []
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": ["1785223665753211312"],
+                        "editable_until_msecs": "1714469064000",
+                        "is_edit_eligible": true,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "216373",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+                    "legacy": {
+                        "bookmark_count": 9,
+                        "bookmarked": false,
+                        "created_at": "Tue Apr 30 08:24:24 +0000 2024",
+                        "conversation_id_str": "1785223665753211312",
+                        "display_text_range": [0, 165],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [{
+                                "display_url": "cnn.it/3JGLN7u",
+                                "expanded_url": "https://cnn.it/3JGLN7u",
+                                "url": "https://t.co/4RWX0uiWEM",
+                                "indices": [142, 165]
+                            }],
+                            "user_mentions": []
+                        },
+                        "favorite_count": 222,
+                        "favorited": false,
+                        "full_text": "Some Columbia University students say they are occupying Hamilton Hall, one of the campus buildings occupied during the 1968 student protests https://t.co/4RWX0uiWEM",
+                        "is_quote_status": false,
+                        "lang": "en",
+                        "possibly_sensitive": false,
+                        "possibly_sensitive_editable": true,
+                        "quote_count": 11,
+                        "reply_count": 242,
+                        "retweet_count": 56,
+                        "retweeted": false,
+                        "user_id_str": "759251",
+                        "id_str": "1785223665753211312"
+                    },
+                    "quick_promote_eligibility": {
+                        "eligibility": "IneligibleNotProfessional"
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "tweet",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "RankedOrganicTweet",
+                    "controllerData": "DAACDAABDAABCgABAAAAAAAAAAAKAAkTkTmcs5fQCgAAAAA="
+                }
+            }
+        }
+    }
+}]

@@ -1,0 +1,370 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+
+:root {
+  --light: #FDFAF8;
+  --light-opac: #fdfaf8c1;
+  --accent_A: #EFDDD3;
+  --accent_B: #C7B0AF;
+  --dark: #393A3B;
+}
+
+html, body {
+  background-color: var(--light);
+  color: var(--dark);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+::-webkit-scrollbar{
+  width:8px;
+  background-color:grey;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+img, p {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+select, input[type="text"]{
+  width:100%;
+  box-sizing:border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 2em;
+  gap: 2em;
+}
+
+.mainContainer > .header {
+  padding: 1em;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.profilePage {
+  max-width: 900px;
+}
+
+.profilesContainer {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.profile {
+  padding: 1em;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  gap: 1em;
+  transition: 500ms ease;
+  z-index: 1;
+}
+
+.profile > img {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.profile > .profileData {
+  display: flex;
+  flex-flow: column;
+  height: 50px;
+  width: 120px;
+}
+
+.profile > .profileData > p {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profileData > .actions {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+
+.profileData > .actions > img {
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  height: 25px;
+  width: fit-content;
+  cursor: pointer;
+  background-color: #1DA1F2;
+  color: white;
+  z-index: 2;
+  transition: 200ms ease-in-out;
+}
+
+.profileData > .actions > img:hover {
+  filter: brightness(0.95);
+}
+
+.profileBody {
+  width: 100%;
+  height: -webkit-fill-available;
+  max-width: 900px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+}
+
+.profileBody > div {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1em;
+}
+
+.profileBody > .left {
+  width: 35%;
+  min-height: fit-content;
+  height: fit-content;
+}
+
+.profileBody > .right {
+  height: 100%;
+  flex: 1;
+}
+
+.profileBody > .right > div:not(.nobg),
+.profileBody > .left > div:not(.nobg) {
+  padding: 1em;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+  max-height: -webkit-fill-available;
+}
+
+.profileBody > .right > div > p,
+.profileBody > .left > div > p {
+  margin: 0px;
+}
+
+p.title {
+  font-weight: 500;
+  margin-bottom: 10px !important;
+}
+
+p.title span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+p.body span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.emotionList,
+.sentimentList {
+  overflow-y: scroll;
+  height: -webkit-fill-available;
+  max-height: 120px;
+}
+
+.emotion,
+.sentiment {
+  display: flex;
+  flex-flow: row;
+  /* justify-content: space-between; */
+}
+
+.emotion p,
+.sentiment p {
+  justify-self: center;
+  align-self: self-end;
+  margin: 5px 0px;
+}
+
+.emotion p:nth-of-type(1),
+.sentiment p:nth-of-type(1) {
+  font-weight: 500;
+  width: 30px;
+  margin-top: 0;
+}
+
+.emotion p:nth-of-type(3),
+.sentiment p:nth-of-type(3) {
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.emotion:last-of-type > p,
+.sentiment:last-of-type > p {
+  margin-bottom: 0;
+}
+
+.tweetList {
+  height: -webkit-fill-available;
+  flex: 1;
+  height: max-content;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow-y: auto;
+  gap: 1em;
+}
+
+.tweetList > div {
+  padding: 1em;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tweet {
+  position: relative;
+  width: 98%;
+}
+
+.tweet > .features {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.tweet > .features > .emotions,
+.tweet > .features > .sentiment {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10px;
+}
+
+.features > .emotions > p,
+.features > .sentiment > p {
+  text-wrap: nowrap;
+  margin: 0;
+  padding: 3px 20px;
+  border-radius: 5px;
+  background-color: rgb(222, 222, 222);
+  color: black;
+  text-transform: capitalize;
+  width: unset;
+  font-weight: unset;
+}
+
+.features > .sentiment > p {
+  cursor: help;
+}
+
+
+.features > .sentiment > p > span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.timestamp {
+  font-size: 10px;
+  margin: 0;
+}
+
+.fulltext {
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .mainContainer > .header {
+      flex-flow: column nowrap;
+      justify-content: left;
+      align-items:  start;
+    }
+
+    .profile {
+      width: 100%;
+    }
+
+    .profile > .profileData {
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .profileBody {
+      flex-flow: column;
+      overflow-y: auto;
+    }
+
+    .profileBody > div {
+      width: 96% !important;
+    }
+  }
