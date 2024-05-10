@@ -79,11 +79,11 @@ WHERE
         ORDER BY quant DESC;
     `)
 
-    // sorted list of emotions by account
+    // sorted list of sentiment keywords by account
     var rankedSentimentKeywords = await this.query(`
         SELECT word, AVG(score), posted_by, count(*) as quant
         FROM sentiment_keywords
-        WHERE posted_by="CNN"
+        WHERE posted_by="${accountName}"
         GROUP BY word
         ORDER BY quant DESC
         LIMIT 20;
